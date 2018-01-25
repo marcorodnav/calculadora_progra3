@@ -58,6 +58,24 @@ namespace Calculadora {
         protected global::System.Web.UI.WebControls.TextBox tValor2;
         
         /// <summary>
+        /// lOperador control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lOperador;
+        
+        /// <summary>
+        /// rbtnOperador control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rbtnOperador;
+        
+        /// <summary>
         /// bResultado control.
         /// </summary>
         /// <remarks>

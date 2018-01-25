@@ -19,6 +19,14 @@
         <asp:TextBox ID="tValor2" runat="server"></asp:TextBox>
         <br />
         <br />
+        <asp:Label ID="lOperador" runat="server" Text="Operador"></asp:Label>
+        <br />
+        <asp:RadioButtonList ID="rbtnOperador" runat="server">
+            <asp:ListItem Selected="True" Value="suma">Suma</asp:ListItem>
+            <asp:ListItem Value="resta">Resta</asp:ListItem>
+        </asp:RadioButtonList>
+        <br />
+        <br />
         <asp:Button ID="bResultado" runat="server" OnClick="bResultado_Click" Text="Resultado" />
         <br />
         <br />

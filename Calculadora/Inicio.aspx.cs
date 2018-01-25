@@ -16,11 +16,19 @@ namespace Calculadora
 
         protected void bResultado_Click(object sender, EventArgs e)
         {
-            int valor1, valor2, resultado;
-            valor1 = valor2 = resultado = 0;
-            valor1 = int.Parse(tValor1.Text);
-            valor2 = int.Parse(tValor2.Text);
-            resultado = valor1 + valor2;
+            int valor1 = int.Parse(tValor1.Text), valor2 = int.Parse(tValor2.Text), resultado =0;
+            switch(rbtnOperador.SelectedItem.Value)
+            {
+                case "suma":
+                    resultado = valor1 + valor2;
+                    break;
+                case "resta":
+                    resultado = valor1 - valor2;
+                    break;
+                default:
+                    resultado = 0;
+                    break;
+            }
             lResultado.Text = resultado.ToString();
         }
     }
