@@ -28,13 +28,25 @@
             <asp:ListItem Value="division">Division</asp:ListItem>
         </asp:RadioButtonList>
         <br />
+        <asp:Label ID="lOperadorCombinado" runat="server" Text="Operador combinado"></asp:Label>
+        <br />
+        <asp:CheckBoxList ID="cbxOperador" runat="server">
+            <asp:ListItem Value="suma">Suma</asp:ListItem>
+            <asp:ListItem Value="resta">Resta</asp:ListItem>
+            <asp:ListItem Value="multiplicacion">Multiplicacion</asp:ListItem>
+            <asp:ListItem Value="division">Division</asp:ListItem>
+        </asp:CheckBoxList>
+        <br />
         <br />
         <asp:Button ID="bResultado" runat="server" OnClick="bResultado_Click" Text="Resultado" />
         <br />
+        <asp:Button ID="bLimpiar" runat="server" OnClick="bLimpiar_Click" Text="Limpiar" />
         <br />
         <asp:Label ID="lResultado" runat="server" Text="Resultado: "></asp:Label>
     
     </div>
+        <asp:Label ID="lResultadoCombinado" runat="server" Text="Resultado combinado"></asp:Label>
+        <br />
     </form>
 </body>
 </html>

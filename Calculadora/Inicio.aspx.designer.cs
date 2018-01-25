@@ -76,6 +76,24 @@ namespace Calculadora {
         protected global::System.Web.UI.WebControls.RadioButtonList rbtnOperador;
         
         /// <summary>
+        /// lOperadorCombinado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lOperadorCombinado;
+        
+        /// <summary>
+        /// cbxOperador control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList cbxOperador;
+        
+        /// <summary>
         /// bResultado control.
         /// </summary>
         /// <remarks>
@@ -85,6 +103,15 @@ namespace Calculadora {
         protected global::System.Web.UI.WebControls.Button bResultado;
         
         /// <summary>
+        /// bLimpiar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button bLimpiar;
+        
+        /// <summary>
         /// lResultado control.
         /// </summary>
         /// <remarks>
@@ -92,5 +119,14 @@ namespace Calculadora {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lResultado;
+        
+        /// <summary>
+        /// lResultadoCombinado control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lResultadoCombinado;
     }
 }
