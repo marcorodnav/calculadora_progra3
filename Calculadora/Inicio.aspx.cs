@@ -25,6 +25,12 @@ namespace Calculadora
                 case "resta":
                     resultado = valor1 - valor2;
                     break;
+                case "multiplicacion":
+                    resultado = valor1 * valor2;
+                    break;
+                case "division":
+                    resultado = (valor1 != 0 ? valor1 / valor2 : 0);
+                    break;
                 default:
                     resultado = 0;
                     break;

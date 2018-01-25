@@ -24,6 +24,8 @@
         <asp:RadioButtonList ID="rbtnOperador" runat="server">
             <asp:ListItem Selected="True" Value="suma">Suma</asp:ListItem>
             <asp:ListItem Value="resta">Resta</asp:ListItem>
+            <asp:ListItem Value="multiplicacion">Multiplicacion</asp:ListItem>
+            <asp:ListItem Value="division">Division</asp:ListItem>
         </asp:RadioButtonList>
         <br />
         <br />
