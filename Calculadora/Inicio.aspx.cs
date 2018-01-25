@@ -75,8 +75,15 @@ namespace Calculadora
 
         protected void bLimpiar_Click(object sender, EventArgs e)
         {
+            tValor1.Text = "";
+            tValor2.Text = "";
             lResultado.Text = "Resultado";
             lResultadoCombinado.Text = "Resultado combinado";
+            rbtnOperador.SelectedIndex = 0;
+            foreach (ListItem op in cbxOperador.Items)
+            {
+                op.Selected = false;
+            }
         }
     }
 }
